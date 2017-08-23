@@ -1,0 +1,22 @@
+{
+    "name": "ceive/net-hypertext",
+    "description": "hypertext (HTT)",
+    "type": "library",
+    "license": "Apache 2.0",
+    "minimum-stability": "dev",
+    "require": {
+	  "ceive/value": "dev-master",
+	  "ceive/net": "dev-master",
+	  "ceive/data-keword": "dev-master"
+	},
+    "autoload" : {
+	  "psr-4": {
+		"Ceive\\Hypertext\\": "src/"
+	  }
+	},
+  	"autoload-dev" : {
+	  "psr-4": {
+		"Ceive\\Hypertext\\Tests\\": "src/"
+	  }
+  	}
+}
